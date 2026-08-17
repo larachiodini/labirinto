@@ -146,20 +146,24 @@ function buildMaze() {
 
 
       /*
-        PERSONAGEM DA JOGADORA
-      */
+      /*
+  PERSONAGEM DA JOGADORA
+*/
 
-      if (
-        r === player.row &&
-        c === player.col
-      ) {
+if (
+  r === player.row &&
+  c === player.col
+) {
 
-        cell.innerHTML =
-          '<span class="player">👩🏻</span>';
+  const img = document.createElement("img");
 
-      }
+  img.src = "4.jpeg";
+  img.alt = "Ela";
+  img.className = "player";
 
+  cell.appendChild(img);
 
+}
       /*
         VOCÊ NO FINAL
       */
