@@ -172,7 +172,7 @@ function buildMaze() {
         const img =
           document.createElement("img");
 
-        img.src = "2.jpg";
+        img.src = "2.jpeg";
 
         img.alt = "Meu personagem";
 
