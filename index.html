@@ -20,9 +20,13 @@
     <div class="card intro-card">
 
       <div class="image-placeholder">
-        <img src="./1.jpeg" alt="Foto do início">
+        <img
+          src="1.jpg"
+          alt="Foto do início"
+          onerror="this.style.display='none'; this.parentElement.classList.add('empty')"
+        >
       </div>
-      
+
       <p class="hello">
         oi minha franjoca ❤️
       </p>
@@ -124,23 +128,34 @@
 
 
       <!-- ENCONTRO DOS DOIS PERSONAGENS -->
-<div class="meet-animation">
 
-  <!-- FOTO DELA -->
-  <div class="mini-character her">
-    <img src="4.jpeg" alt="Ela">
-  </div>
+      <div class="meet-animation">
 
-  <div class="heart-between">
-    ❤️
-  </div>
+        <!-- personagem dela -->
 
-  <!-- SUA FOTO -->
-  <div class="mini-character me">
-    <img src="2.jpeg" alt="Eu">
-  </div>
+        <div class="mini-character her">
+          👩🏻
+        </div>
 
-</div>
+
+        <div class="heart-between">
+          ❤️
+        </div>
+
+
+        <!-- SUA FOTO -->
+
+        <div class="mini-character me">
+
+          <img
+            src="2.jpg"
+            alt="Eu"
+            onerror="this.style.display='none'"
+          >
+
+        </div>
+
+      </div>
 
 
       <!-- FOTO DE VOCÊS -->
@@ -148,7 +163,7 @@
       <div class="photo-placeholder">
 
         <img
-          src="3.jpeg"
+          src="3.jpg"
           alt="Foto de vocês"
           onerror="this.style.display='none'; this.parentElement.classList.add('empty')"
         >
